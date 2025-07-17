@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Kalil Nege  <br><br>Estudante de Ciência da Computação no 4º período na UTFPR Campo Mourão.  <br>Foco em desenvolvimento web e mobile, com experiência prática em:  <br>- React.js e JavaScript para front-end  <br>- React Native e Flutter para aplicações móveis  <br>- Node.js e JavaScript (em aprendizado) para back-end  <br><br>Atualmente trabalhando em projetos acadêmicos e explorando ferramentas modernas.  <br><br>Contato:   <br>Email: kalilnege40@gmail.com</p>
+<p align="left">Kalil Nege  <br><br>Estudante de Ciência da Computação no 5º período na UTFPR Campo Mourão.  <br>Foco em desenvolvimento web e mobile, com experiência prática em:  <br>- React.js e JavaScript para front-end  <br>- React Native e Flutter para aplicações móveis  <br>- Node.js e JavaScript (em aprendizado) para back-end  <br><br>Atualmente trabalhando em projetos acadêmicos e explorando ferramentas modernas.  <br><br>Contato:   <br>Email: kalilnege40@gmail.com</p>
 
 ###
 
