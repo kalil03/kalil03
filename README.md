@@ -70,10 +70,7 @@
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kalil03&layout=compact&langs_count=8&theme=tokyonight" alt="Top linguagens" />
 </div>
-<br>
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=kalil03&show_icons=true&theme=tokyonight" alt="Estatísticas GitHub" />
-</div>
+
 
 
 
