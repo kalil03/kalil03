@@ -1,29 +1,78 @@
-<h2 align="left">About me</h2>
+<h2 align="left">👋 Sobre mim</h2>
 
-###
+<p align="left">
+  Me chamo <strong>Kalil Nege</strong>.<br><br>
+  🎓 Estudante do 5º período de Ciência da Computação na UTFPR – Campo Mourão.<br>
+  💻 Focado em desenvolvimento back-end com APIs RESTful usando Node.js, Express e PostgreSQL/MongoDB.<br><br>
+  Atualmente expandindo habilidades em DevOps e Cloud Computing, com foco em <strong>Docker</strong> e plataformas como AWS.<br><br>
+  🚀 Projetos pessoais incluem sistemas de login, encurtadores de link, e serviços com autenticação, containerização e CI/CD.<br><br>
+  📫 <strong>Contato:</strong><br>
+  Email: <a href="mailto:kalilnege40@gmail.com">kalilnege40@gmail.com</a><br>
+  LinkedIn: <a href="https://www.linkedin.com/in/kalil-nege-65472b266" target="_blank">kalil-nege</a><br>
+  GitHub: <a href="https://github.com/kalil03" target="_blank">kalil03</a>
+</p>
 
-<p align="left">Kalil Nege  <br><br>Estudante de Ciência da Computação no 5º período na UTFPR Campo Mourão.  <br>Foco em desenvolvimento web e mobile, com experiência prática em:  <br>- React.js e JavaScript para front-end  <br>- React Native e Flutter para aplicações móveis  <br>- Node.js e JavaScript (em aprendizado) para back-end  <br><br>Atualmente trabalhando em projetos acadêmicos e explorando ferramentas modernas.  <br><br>Contato:   <br>Email: kalilnege40@gmail.com</p>
+---
 
-###
-
-<h2 align="left">Tecnologias</h2>
-
-###
+<h2 align="left">🛠️ Tecnologias</h2>
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React.js" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactnative/reactnative-original.svg" height="40" alt="React Native" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="Flutter" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="c logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express.js" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" height="40" alt="Prisma" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="Firebase" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
+</div>
+
+---
+
+<h2 align="left">🚀 Projetos em Destaque</h2>
+
+- 🔗 <strong>EncurtLink</strong> — API de encurtamento e rastreamento de links com autenticação JWT, PostgreSQL e Docker  
+  [🔍 Ver repositório](https://github.com/kalil03/EncurtLink)
+
+- 🧮 <strong>Calculadora PEWS com Login</strong> — App com sistema de autenticação e cálculo, usando MongoDB, Express e JWT  
+  [🔍 Ver repositório](https://github.com/kalil03/PewLator.git)
+
+- 💳 <strong>API Clube de Assinaturas</strong> — API RESTful para clubes de assinatura com planos, usuários, Stripe e Prisma  
+  *(em desenvolvimento)*
+
+---
+
+<h2 align="left">📊 Estatísticas</h2>
+
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kalil03&layout=compact&langs_count=8&theme=tokyonight" alt="Top linguagens" />
+</div>
+<br>
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=kalil03&show_icons=true&theme=tokyonight" alt="Estatísticas GitHub" />
 </div>
 
 
