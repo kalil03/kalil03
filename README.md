@@ -5,7 +5,6 @@
   🎓 Estudante do 5º período de Ciência da Computação na UTFPR – Campo Mourão.<br>
   💻 Focado em desenvolvimento back-end com APIs RESTful usando Node.js, Express e PostgreSQL/MongoDB.<br><br>
   Atualmente expandindo habilidades em DevOps e Cloud Computing, com foco em <strong>Docker</strong> e plataformas como AWS.<br><br>
-  🚀 Projetos pessoais incluem sistemas de login, encurtadores de link, e serviços com autenticação, containerização e CI/CD.<br><br>
   📫 <strong>Contato:</strong><br>
   Email: <a href="mailto:kalilnege40@gmail.com">kalilnege40@gmail.com</a><br>
   LinkedIn: <a href="https://www.linkedin.com/in/kalil-nege-65472b266" target="_blank">kalil-nege</a><br>
