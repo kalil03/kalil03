@@ -49,21 +49,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
 </div>
 
----
-
-<h2 align="left">🚀 Projetos em Destaque</h2>
-
-- 🔗 <strong>EncurtLink</strong> — API de encurtamento e rastreamento de links com autenticação JWT, PostgreSQL e Docker  
-  [🔍 Ver repositório](https://github.com/kalil03/EncurtLink)
-
-- 🧮 <strong>Calculadora PEWS com Login</strong> — App com sistema de autenticação e cálculo, usando MongoDB, Express e JWT  
-  [🔍 Ver repositório](https://github.com/kalil03/PewLator.git)
-
-- 💳 <strong>API Clube de Assinaturas</strong> — API RESTful para clubes de assinatura com planos, usuários, Stripe e Prisma  
-  *(em desenvolvimento)*
-
----
-
 <h2 align="left">📊 Estatísticas</h2>
 
 <div align="left">
