@@ -1,54 +1,230 @@
-<h1 align="center">👋 Olá, eu sou o Kalil Nege</h1>
-<p align="center">
-  🚀 Desenvolvedor Back-End | Node.js | PostgreSQL | MongoDB | DevOps & Cloud Enthusiast  
-</p>
+# AdoteUmPet - Pet Adoption Platform
+
+**Status:** Em desenvolvimento
+
+Backend API construída em Node.js + Express para gerenciamento de adoção de animais, utilizando PostgreSQL e Sequelize ORM.
 
 ---
 
-## 👨‍💻 Sobre mim
-🎓 Estudante do 5º período de Ciência da Computação na UTFPR – Campo Mourão.  
-💻 Focado em desenvolvimento **back-end** com APIs RESTful usando **Node.js, Express e PostgreSQL/MongoDB**.  
-☁️ Expandindo conhecimentos em **DevOps** e **Cloud Computing**, com foco em **Docker** e AWS.  
-
-📫 **Contato:**  
-[![Email](https://img.shields.io/badge/-kalilnege40@gmail.com-red?style=flat&logo=gmail&logoColor=white)](mailto:kalilnege40@gmail.com)  
-[![LinkedIn](https://img.shields.io/badge/-Kalil%20Nege-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalil-nege-65472b266)  
+## Visão Geral
+API RESTful para cadastro, consulta e gerenciamento de pets disponíveis para adoção, atendendo aos requisitos do desafio técnico. Permite integração com banco de dados relacional e suporte a funcionalidades futuras como autenticação, filtros de busca e upload de imagens.
 
 ---
 
-## 🛠️ Tecnologias
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" title="JavaScript"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" title="TypeScript"/>
-  <img width="12"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" title="Node.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" title="Express.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" title="PostgreSQL"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" title="MongoDB"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" height="40" title="Prisma"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" title="Docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" title="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" title="React"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" title="Flutter"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" title="C"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" title="C++"/>
-</div>
+## Funcionalidades
+
+### Implementadas
+- Health check (`/health`)  
+- CRUD completo de pets (via Sequelize)  
+- Integração com PostgreSQL  
+- Status de pets (`available` / `adopted`)  
+- Localização por cidade e coordenadas  
+- Tabela `pets` com campos: `id (UUID)`, `name`, `species (dog|cat)`, `breed`, `age_years`, `shelter_city`, `shelter_lat`, `shelter_lng`, `status`, `created_at`, `updated_at`
+
+### Em andamento
+- **POST /pets**: validação de campos, inserção no banco e retorno de 201 ou 400  
+- **GET /pets**: filtros, paginação e ordenação usando query params (`name`, `species`, `breed`, `shelter_city`, `status`, `page`, `perPage`, `sortBy`, `order`)  
+- **GET /pets/:id**: busca por ID, retorna 404 se não encontrado  
+- **GET /breeds/:species**: integração com TheDogAPI/TheCatAPI, cache em memória de 1 hora, normalização de resposta `{ name, origin, energy_level, image_url }`
+
+### Planejadas
+- Autenticação e autorização de usuários  
+- Upload de imagens  
+- Sistema de pedidos de adoção  
+- Integração com APIs externas adicionais  
+- Sistema de recomendação de pets  
+- Histórico de adoções  
+- Dashboard administrativo
 
 ---
 
-## 📊 Estatísticas
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kalil03&show_icons=true&theme=tokyonight" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kalil03&layout=compact&langs_count=8&theme=tokyonight" height="150"/>
-</div>
+## Stack Tecnológico
+- Node.js (>=16)  
+- Express.js  
+- PostgreSQL (>=12)  
+- Sequelize ORM  
+- Helmet e CORS para segurança  
+- Morgan para logging  
+- dotenv para gerenciamento de variáveis de ambiente  
+- Nodemon para desenvolvimento  
+- Sequelize CLI para migrations e seeders
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kalil03&theme=tokyonight" height="150"/>
-</div>
+---
 
+## Arquitetura e Decisões
+- Separação em camadas: controllers, models, routes e utils.  
+- Uso de PostgreSQL com Sequelize para consistência e integridade.  
+- UUID como chave primária para garantir unicidade.  
+- Migrations e Seeders para replicação e versionamento do banco.  
+- Configuração do Sequelize via `database.js` e compatibilidade com Sequelize CLI (`config/config.js` e `.sequelizerc`).
 
+---
 
+## Etapas do Desenvolvimento
 
+### Etapa 1 – Esqueleto do Projeto
+- Node.js + Express, PostgreSQL com Sequelize.  
+- Middlewares: Helmet, CORS, Morgan.  
+- Scripts: `dev`, `start`, `migrate`, `seed`.  
+- `.env` configurado com `DATABASE_URL`, `DOG_API_KEY` e `CAT_API_KEY`.  
+- Teste do servidor com `npm run dev` retornando status OK.
 
+### Etapa 2 – Modelo Sequelize e Migração Pet
+- Criação do modelo `Pet` e migration.  
+- Resolução de erros: `dialect needs to be explicitly supplied` e `uuid_generate_v4()`.  
+- Migration executada com sucesso.
 
+### Etapa 3 – Conexão com o Banco de Dados
+- `src/config/database.js`: exporta Sequelize via `DATABASE_URL`.  
+- `src/models/index.js`: inicializa Sequelize, importa `Pet` e exporta instância.  
+- Testes de conexão realizados com sucesso.
+
+### Etapa 4 – POST /pets
+- Rota: `src/routes/petRoutes.js`.  
+- Controller: `src/controllers/petController.js`.  
+- Validação de campos (strings, species, idade, latitude/longitude, status opcional).  
+- Inserção no banco e retorno 201 ou 400.  
+- Registro da rota em `src/index.js`.
+
+### Etapa 5 – GET /pets
+- Filtros: `name`, `species`, `breed`, `shelter_city`, `status`.  
+- Paginação: `page` (1), `perPage` (10).  
+- Ordenação: `sortBy`, `order` (asc|desc).  
+- Retorno: `{ total, page, perPage, data: [] }` usando `count` + `findAll` do Sequelize.
+
+### Etapa 6 – GET /pets/:id
+- Busca por PK no Sequelize.  
+- Retorna JSON completo ou 404 `{ error: "Pet not found" }`.  
+- Adição de rota e controller.
+
+### Etapa 7 – GET /breeds/:species
+- Integração com TheDogAPI/TheCatAPI via `.env` keys.  
+- Normalização: `{ name, origin, energy_level, image_url }`.  
+- Filtro opcional por query param `q=name`.  
+- Implementação em `src/controllers/breedController.js` e `src/routes/breedRoutes.js`.  
+- Cache em memória com TTL de 1 hora.
+
+---
+
+## Estrutura do Projeto
+```
+AdoteUmPet/
+├── config/
+│   └── config.js
+├── src/
+│   ├── config/
+│   │   └── database.js
+│   ├── controllers/
+│   ├── models/
+│   │   ├── index.js
+│   │   └── pet.js
+│   ├── routes/
+│   ├── utils/
+│   ├── migrations/
+│   ├── seeders/
+│   └── index.js
+├── .env.example
+├── package.json
+└── README.md
+```
+
+---
+
+## Configuração e Execução
+
+### Pré-requisitos
+- Node.js >=16  
+- PostgreSQL >=12
+
+### Instalação
+```bash
+git clone <repository-url>
+cd AdoteUmPet
+npm install
+cp .env.example .env
+```
+
+### Banco de Dados
+```bash
+createdb adote_um_pet
+npm run migrate
+npm run seed
+```
+
+### Rodando o servidor
+```bash
+npm run dev
+npm start
+```
+
+---
+
+## Endpoints da API
+
+### Health
+- `GET /health` → Retorna status da API
+
+### Pets
+- `GET /api/pets` → Lista todos os pets  
+- `GET /api/pets/:id` → Detalhes do pet  
+- `POST /api/pets` → Cria novo pet  
+- `PUT /api/pets/:id` → Atualiza pet  
+- `DELETE /api/pets/:id` → Remove pet
+
+### Breeds
+- `GET /breeds/:species` → Lista raças do TheDogAPI/TheCatAPI, resposta normalizada, cache 1 hora
+
+---
+
+## Modelo de Dados – Pets
+| Campo        | Tipo           | Descrição |
+|--------------|---------------|-----------|
+| id           | UUID (PK)     | Identificador único |
+| name         | STRING        | Nome do pet |
+| species      | ENUM          | dog / cat |
+| breed        | STRING        | Raça |
+| age_years    | INTEGER       | Idade |
+| shelter_city | STRING        | Cidade do abrigo |
+| shelter_lat  | DECIMAL(10,7) | Latitude |
+| shelter_lng  | DECIMAL(10,7) | Longitude |
+| status       | ENUM          | available/adopted |
+| created_at   | TIMESTAMP     | Data de criação |
+| updated_at   | TIMESTAMP     | Data de atualização |
+
+---
+
+## Fluxo de Dados
+1. Requisição chega na rota em `routes/`.  
+2. Rota chama o controller correspondente (`controllers/`).  
+3. Controller interage com o modelo Sequelize (`models/`).  
+4. Resultado retorna ao cliente via JSON.  
+5. Middlewares de logging, segurança e validação interceptam requisições conforme necessário.
+
+---
+
+## Variáveis de Ambiente
+| Variável     | Descrição |
+|--------------|-----------|
+| DATABASE_URL | String de conexão com PostgreSQL |
+| PORT         | Porta do servidor |
+| NODE_ENV     | Ambiente de execução (development/production) |
+| DOG_API_KEY  | Chave API externa para cães |
+| CAT_API_KEY  | Chave API externa para gatos |
+| JWT_SECRET   | Chave para autenticação futura |
+| CORS_ORIGIN  | Origem permitida para CORS |
+
+---
+
+## Scripts de Desenvolvimento
+```bash
+npm run dev      # Servidor em desenvolvimento
+npm start        # Servidor em produção
+npm run migrate  # Executa migrations
+npm run seed     # Executa seeders
+```
+
+---
+
+## Licença
+MIT License
 
