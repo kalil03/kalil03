@@ -19,8 +19,8 @@
 
 ---
 
-Sexto Período de **Ciência da Computação** na UTFPR – Campo Mourão.  
-Construo APIs robustas, sistemas escaláveis e modelos de IA aplicados ao contexto brasileiro.
+6.º período de **Ciência da Computação** na UTFPR – Campo Mourão.  
+Construo APIs robustas, sistemas escaláveis e modelos de IA.
 
 ```
 Back-End  ████████████████████  Node.js · Express · PostgreSQL · MongoDB
