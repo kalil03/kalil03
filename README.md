@@ -19,7 +19,7 @@
 
 ---
 
-Estudante de **Ciência da Computação** na UTFPR – Campo Mourão.  
+Sexto Período de **Ciência da Computação** na UTFPR – Campo Mourão.  
 Construo APIs robustas, sistemas escaláveis e modelos de IA aplicados ao contexto brasileiro.
 
 ```
@@ -44,24 +44,6 @@ Modelo **BERTimbau** fine-tuned com **187k reviews reais** do Mercado Livre. Pip
 
 ---
 
-### 🔗 EncurtLink
-> Serviço de encurtamento de URLs com rastreamento e expiração automática
-
-`Node.js` `PostgreSQL` `Express`
-
-[![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/EncurtLink)
-
----
-
-### 💳 Clube de Assinaturas API
-> API RESTful para gerenciar clubes de assinatura com autenticação e pagamentos via Stripe
-
-`TypeScript` `Node.js` `Stripe` `PostgreSQL` `Prisma`
-
-[![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/Clube-de-Assinaturas-API)
-
----
-
 ### 🎬 Cine-Ticket
 > Plataforma full-stack para compra de ingressos de cinema e eventos
 
@@ -77,6 +59,24 @@ Modelo **BERTimbau** fine-tuned com **187k reviews reais** do Mercado Livre. Pip
 `Python` `Deep Learning` `Computer Vision`
 
 [![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/DeepFakes)
+
+---
+
+### 🔗 EncurtLink
+> Serviço de encurtamento de URLs com rastreamento e expiração automática
+
+`Node.js` `PostgreSQL` `Express`
+
+[![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/EncurtLink)
+
+---
+
+### 💳 Clube de Assinaturas API
+> API RESTful para gerenciar clubes de assinatura com autenticação e pagamentos via Stripe
+
+`TypeScript` `Node.js` `Stripe` `PostgreSQL` `Prisma`
+
+[![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/Clube-de-Assinaturas-API)
 
 ---
 
