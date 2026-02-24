@@ -49,6 +49,7 @@ Modelo **BERTimbau** fine-tuned com **187k reviews reais** do Mercado Livre. Pip
 
 `JavaScript` `Node.js` `PostgreSQL`
 
+[![Demo](https://img.shields.io/badge/Demo_ao_vivo-00e5a0?style=flat-square)](http://cine-ticket.onrender.com/)
 [![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/Cine-Ticket)
 
 ---
