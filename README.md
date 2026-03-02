@@ -59,6 +59,7 @@ Modelo **BERTimbau** fine-tuned com **187k reviews reais** do Mercado Livre. Pip
 
 `Python` `Deep Learning` `Computer Vision`
 
+[![Demo](https://img.shields.io/badge/Demo_ao_vivo-00e5a0?style=flat-square)](https://huggingface.co/spaces/kalilzera/DeepFakes)
 [![Repo](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/DeepFakes)
 
 ---
