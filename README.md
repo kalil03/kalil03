@@ -52,15 +52,6 @@ Front-End ████████░░░░░░░░░░░░  React ·
 
 ---
 
-### 🐾 AdoteUmPet
-> **Plataforma Web Full-Stack para Gerenciamento e Adoção de Animais**  
-> Sistema completo com backend Node.js, mapa Leaflet para localização de abrigos, integração ao ViaCEP para rotas, ORM para gerenciamento em banco SQL e integração em tempo real com TheDogAPI / TheCatAPI através de cache Redis/Memory para consulta otimizada de raças.  
-> **Tech:** `Node.js` `Express` `React` `PostgreSQL` `TailwindCSS` `Sequelize` `Jest`
-
-[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/AdoteUmPet)
-
----
-
 ### 🎬 Cine-Ticket
 > **E-Commerce de Ingressos de Cinema e Eventos**  
 > Desenho e implementação de uma plataforma full-stack moderna garantindo reserva assíncrona, painel de usuário e cálculo de assentos.  
@@ -68,6 +59,15 @@ Front-End ████████░░░░░░░░░░░░  React ·
 
 [![Demo Ao Vivo](https://img.shields.io/badge/Demo_ao_vivo-00e5a0?style=flat-square)](http://cine-ticket.onrender.com/)
 [![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/Cine-Ticket)
+
+---
+
+### 🐾 AdoteUmPet
+> **Plataforma Web Full-Stack para Gerenciamento e Adoção de Animais**  
+> Sistema completo com backend Node.js, mapa Leaflet para localização de abrigos, integração ao ViaCEP para rotas, ORM para gerenciamento em banco SQL e integração em tempo real com TheDogAPI / TheCatAPI através de cache Redis/Memory para consulta otimizada de raças.  
+> **Tech:** `Node.js` `Express` `React` `PostgreSQL` `TailwindCSS` `Sequelize` `Jest`
+
+[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/AdoteUmPet)
 
 ---
 
