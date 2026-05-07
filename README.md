@@ -1,122 +1,210 @@
-<div align="center">
+<h1 align="center">Hey, I'm Kalil Nege </h1>
 
-```
-██╗  ██╗ █████╗ ██╗     ██╗██╗     
-██║ ██╔╝██╔══██╗██║     ██║██║     
-█████╔╝ ███████║██║     ██║██║     
-██╔═██╗ ██╔══██║██║     ██║██║     
-██║  ██╗██║  ██║███████╗██║███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚══════╝
-```
+<p align="center">
+  Computer Science student focused on Backend Development, Artificial Intelligence, Computer Vision and real-world software projects.
+</p>
 
-### Kalil Nege · Software Engineer & AI Developer
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kalil-nege-65472b266)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kalilnege40@gmail.com)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/kalilzera)
-
-</div>
-
----
-
-Estudante do 6.º período de **Ciência da Computação** na UTFPR (Campo Mourão - PR).  
-Desenvolvo **APIs robustas**, **arquiteturas em nuvem escaláveis** e **modelos de Inteligência Artificial** focados em resolver problemas reais.
-
-```
-Back-End  ████████████████████  Node.js · Express · PostgreSQL · Docker
-IA / ML   ████████████░░░░░░░░  Python · PyTorch · HuggingFace · CNNs
-Front-End ████████░░░░░░░░░░░░  React · TypeScript · Tailwind CSS
-```
+<p align="center">
+  <a href="https://github.com/kalil03">
+    <img src="https://img.shields.io/badge/GitHub-kalil03-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/kalil-nege-65472b266">
+    <img src="https://img.shields.io/badge/LinkedIn-Kalil%20Nege-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:kalilnege40@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://huggingface.co/kalilzera">
+    <img src="https://img.shields.io/badge/HuggingFace-kalilzera-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  </a>
+</p>
 
 ---
 
-## 🔥 Projetos em Destaque
+## About me
 
-### 🔍 DeepFakes & AI Image Detector
-> **Sistema avançado de atribuição de imagens geradas por IA (96.65% Acurácia)**  
-> Diferente de detectores binários tradicionais, este classificador identifica o modelo exato que gerou a imagem (Google Gemini, DALL-E 3, Midjourney v6, Stable Diffusion, GANs ou Humano) usando extração de features com *DenseNet121* e inferência com *Perceptron Multicamadas (MLP)* de 300k amostras balanceadas via SMOTE.  
-> **Tech:** `Python` `PyTorch` `React` `FastAPI` `Docker` `Hugging Face Spaces`
+I'm a Computer Science student at **UTFPR - Campo Mourão**, currently in the 6th semester.  
+I build projects that combine **backend development**, **cloud-ready architectures**, **databases**, **artificial intelligence** and **computer vision**.
 
-[![Demo Ao Vivo](https://img.shields.io/badge/Demo_ao_vivo-00e5a0?style=flat-square)](https://huggingface.co/spaces/kalilzera/DeepFakes)
-[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/DeepFakes)
+My main focus is creating practical applications that solve real problems, from REST APIs and full-stack platforms to machine learning models deployed in production-like environments.
 
----
-
-### 🤖 ReviewCheckIA
-> **Análise de sentimento de reviews em português brasileiro**  
-> Modelo base **BERTimbau** *fine-tuned* com mais de **187 mil reviews reais** do Mercado Livre. O sistema atinge uma performance excepcional de 95% de acurácia através de um pipeline NLP completo implantado na nuvem.  
-> **Tech:** `Python` `PyTorch` `FastAPI` `HuggingFace` `NLP` `Docker`
-
-[![Demo Ao Vivo](https://img.shields.io/badge/Demo_ao_vivo-00e5a0?style=flat-square)](https://huggingface.co/spaces/kalilzera/ReviewCheckIA)
-[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/ReviewCheckIA)
+- Backend development with **Node.js**, **Express**, **TypeScript** and **PostgreSQL**
+- AI and Machine Learning projects with **Python**, **PyTorch**, **Hugging Face** and **NLP**
+- Full-stack applications using **React**, **Tailwind CSS** and modern API integrations
+- Experience with **Docker**, deployment workflows and Linux-based development
+- Interested in **defensive security**, fraud detection and applied AI systems
 
 ---
 
-### 🎬 Cine-Ticket
-> **E-Commerce de Ingressos de Cinema e Eventos**  
-> Desenho e implementação de uma plataforma full-stack moderna garantindo reserva assíncrona, painel de usuário e cálculo de assentos.  
-> **Tech:** `JavaScript` `Node.js` `PostgreSQL` `Render`
+## Tech Stack
 
-[![Demo Ao Vivo](https://img.shields.io/badge/Demo_ao_vivo-00e5a0?style=flat-square)](http://cine-ticket.onrender.com/)
-[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/Cine-Ticket)
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,python,c,cpp,cs,sql" />
+</p>
 
----
+### Backend & Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,prisma,fastapi" />
+</p>
 
-### 🐾 AdoteUmPet
-> **Plataforma Web Full-Stack para Gerenciamento e Adoção de Animais**  
-> Sistema completo com backend Node.js, mapa Leaflet para localização de abrigos, integração ao ViaCEP para rotas, ORM para gerenciamento em banco SQL e integração em tempo real com TheDogAPI / TheCatAPI através de cache Redis/Memory para consulta otimizada de raças.  
-> **Tech:** `Node.js` `Express` `React` `PostgreSQL` `TailwindCSS` `Sequelize` `Jest`
+### Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=react,html,css,tailwind" />
+</p>
 
-[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/AdoteUmPet)
-
----
-
-### 💳 Clube de Assinaturas API
-> **API RESTful de pagamentos recorrentes e gestão de membros**  
-> Backend forte gerenciando clubes de assinatura com faturamento automatizado via integração direta à plataforma **Stripe**.  
-> **Tech:** `TypeScript` `Node.js` `Stripe API` `PostgreSQL` `Prisma`
-
-[![Repositório](https://img.shields.io/badge/Repositório-181717?style=flat-square&logo=github)](https://github.com/kalil03/Clube-de-Assinaturas-API)
+### AI, DevOps & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,docker,git,github,linux,vscode" />
+</p>
 
 ---
 
-## 🛠️ Stack Tecnológica
+## Featured Projects
 
-<div align="left">
+### DeepFakes & AI Image Detector
 
-**Back-End**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" title="Node.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="36" title="Express.js"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="36" title="TypeScript"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="36" title="Python"/>
+Advanced AI-generated image attribution system capable of identifying the model responsible for generating an image, instead of only classifying it as real or fake.
 
-**Banco de Dados**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="36" title="PostgreSQL"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="36" title="MongoDB"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" height="36" title="Prisma"/>
+The system classifies images generated by models such as **Google Gemini**, **DALL-E 3**, **Midjourney v6**, **Stable Diffusion**, **GANs**, or **Human** images.
 
-**IA & Computer Vision**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="36" title="PyTorch"/>
-<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="36" title="HuggingFace"/>
+- 96.65% accuracy
+- Feature extraction with DenseNet121
+- Inference with Multilayer Perceptron
+- Balanced dataset with SMOTE
+- Deployment through Hugging Face Spaces
 
-**DevOps & Ferramentas**  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="36" title="Docker"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" title="Git"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="36" title="Linux"/>
+**Tech:** `Python` `PyTorch` `React` `FastAPI` `Docker` `Hugging Face Spaces`
 
-</div>
-
----
-
-## 📈 Estatísticas do GitHub
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kalil03&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5a0&icon_color=00e5a0" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kalil03&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5a0" height="150"/>
-</div>
+<p>
+  <a href="https://huggingface.co/spaces/kalilzera/DeepFakes">
+    <img src="https://img.shields.io/badge/Live_Demo-00e5a0?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/kalil03/DeepFakes">
+    <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
 
 ---
 
-<div align="center">
-  <sub>Campo Mourão · PR · Brasil</sub>
-</div>
+### ReviewCheckIA
+
+Brazilian Portuguese review sentiment analysis system based on a fine-tuned **BERTimbau** model.
+
+The project uses more than **187k real Mercado Livre reviews** and applies a complete NLP pipeline for classification and cloud deployment.
+
+- 95% accuracy
+- Fine-tuned BERTimbau model
+- NLP pipeline for Portuguese reviews
+- API-based architecture
+- Deployed through Hugging Face
+
+**Tech:** `Python` `PyTorch` `FastAPI` `Hugging Face` `NLP` `Docker`
+
+<p>
+  <a href="https://huggingface.co/spaces/kalilzera/ReviewCheckIA">
+    <img src="https://img.shields.io/badge/Live_Demo-00e5a0?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/kalil03/ReviewCheckIA">
+    <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+### Cine-Ticket
+
+Full-stack platform for cinema and event ticket sales, built with a modern web architecture and external data integrations.
+
+- Ticket and event platform
+- User panel
+- Asynchronous reservation flow
+- Seat calculation logic
+- Backend deployed on Render
+
+**Tech:** `JavaScript` `Node.js` `PostgreSQL` `Render`
+
+<p>
+  <a href="http://cine-ticket.onrender.com/">
+    <img src="https://img.shields.io/badge/Live_Demo-00e5a0?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/kalil03/Cine-Ticket">
+    <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+### AdoteUmPet
+
+Full-stack web platform for animal adoption and shelter management.
+
+The project includes location features, address integration, external pet APIs and optimized breed search using cache strategies.
+
+- Backend with Node.js and Express
+- Shelter location map with Leaflet
+- ViaCEP integration
+- SQL database with Sequelize
+- TheDogAPI and TheCatAPI integration
+- Cache with Redis/Memory
+- Tests with Jest
+
+**Tech:** `Node.js` `Express` `React` `PostgreSQL` `Tailwind CSS` `Sequelize` `Jest`
+
+<p>
+  <a href="https://github.com/kalil03/AdoteUmPet">
+    <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+### Clube de Assinaturas API
+
+RESTful API for recurring payments and member management.
+
+The backend handles subscription club logic, automated billing and direct integration with the **Stripe API**.
+
+**Tech:** `TypeScript` `Node.js` `Stripe API` `PostgreSQL` `Prisma`
+
+<p>
+  <a href="https://github.com/kalil03/Clube-de-Assinaturas-API">
+    <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+## GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kalil03&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5a0&icon_color=00e5a0" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kalil03&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5a0" />
+</p>
+
+---
+
+## Currently Learning
+
+- Backend architecture and API design
+- Docker and deployment workflows
+- Machine Learning applied to real-world problems
+- NLP and Computer Vision model deployment
+- Defensive cybersecurity and fraud detection
+- Cloud-ready full-stack development
+
+---
+
+## Goals
+
+I'm currently focused on improving as a developer by building practical projects, studying artificial intelligence and creating applications that can be tested, deployed and used in real scenarios.
+
+<p align="center">
+  <strong>Always building, learning and improving.</strong>
+</p>
+
+---
+
+<p align="center">
+  Campo Mourão · PR · Brasil
+</p>
